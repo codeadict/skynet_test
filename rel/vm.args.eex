@@ -1,0 +1,10 @@
+## Customize flags given to the VM: https://www.erlang.org/doc/man/erl.html
+
+## Enable time correction
++C multi_time_warp
++c true
+
+## Disable busy wait in containerized apps
++sbwt none
++sbwtdcpu none
++sbwtdio none

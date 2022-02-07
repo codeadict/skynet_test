@@ -1,0 +1,2 @@
+export SKYNET_PORT=4000
+export SKYNET_LOG_LEVEL=debug
